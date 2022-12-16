@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PastWorkroomScene.unity
     guid: fb6dabc0a5f49c443a084dae0938f2fc
+  - enabled: 1
+    path: Assets/Scenes/RealWorkScene.unity
+    guid: e18d19b5c4f0e8443bdb58262355d970
   m_configObjects: {}
