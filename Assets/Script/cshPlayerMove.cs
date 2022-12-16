@@ -15,20 +15,21 @@ public class cshPlayerMove : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            transform.Translate(transform.forward * 20.0f * Time.deltaTime);
+            this.transform.Translate(new Vector3(0.0f, 0.0f, 3.0f * Time.deltaTime));
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            transform.Translate(transform.forward * -20.0f * Time.deltaTime);
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.Translate(transform.right * 20.0f * Time.deltaTime);
+            this.transform.Translate(new Vector3(0.0f, 0.0f, -3.0f * Time.deltaTime));
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Translate(transform.right * -20.0f * Time.deltaTime);
+            this.transform.Translate(new Vector3(-3.0f, 0.0f, 0.0f * Time.deltaTime));
+        }
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            this.transform.Translate(new Vector3(3.0f, 0.0f, 0.0f * Time.deltaTime));
         }
     }
+
 
 }

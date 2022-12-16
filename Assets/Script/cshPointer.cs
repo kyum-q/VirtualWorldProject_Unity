@@ -11,7 +11,6 @@ public class cshPointer : MonoBehaviour
     private bool IsOn;
     private float barTime = 0.0f;
 
-
     public bool IsExpain;
     void Start()
     {
@@ -31,7 +30,7 @@ public class cshPointer : MonoBehaviour
             {
                 barTime += Time.deltaTime;
             }
-           
+
             //바가 다 채워지면
             else
             {
@@ -48,6 +47,7 @@ public class cshPointer : MonoBehaviour
             Application.Quit();
         }
 
+
     }
     public void SetGazedAt(bool gazedAt)
     {
@@ -60,10 +60,10 @@ public class cshPointer : MonoBehaviour
         {
             Debug.Log("Out");
             LoadingBar.fillAmount = 0;
-
         }
       
 
     }
 
 }
+
