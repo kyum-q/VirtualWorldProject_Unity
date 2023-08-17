@@ -64,7 +64,7 @@
 
 ## 🖥&nbsp; 실행 화면
 
-[![Video Label](https://github-production-user-asset-6210df.s3.amazonaws.com/109158497/261373548-2a24f5c7-b22e-454c-88e5-40f7a1110861.png)](https://www.youtube.com/watch?v=WQnkbN7b0SA)
+[![Video Label](https://github-production-user-asset-6210df.s3.amazonaws.com/109158497/261373548-2a24f5c7-b22e-454c-88e5-40f7a1110861.png)](https://youtu.be/8sF1T_Hj6PY)
 <br>
 
 ## 🔍&nbsp; 개발 언어
